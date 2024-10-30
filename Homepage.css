@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Head{
+   min-height: 80vh;
+   background: url(./pexels-lanophotography-194511.jpg);
+   background-size: cover;
+   background-attachment: fixed;
+   
+}
+
+.header{
+    color: white;
+    text-align: center;
+    font-family: "Rubik Wet Paint", system-ui;
+    font-size: 100px;
+    
+}
+.line{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Play",sans-serif;
+    padding: 20px;
+}
+
+nav ul li{
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    padding: 50px;
+    margin: 30px;
+    font-size: 30px;
+    
+}
+
+nav a{
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+    font-family: monospace;
+}
+
+.intro{
+    color: white;
+    font-size: 40px;
+    padding: 30px;
+    margin: 30px solid white;
+}
+
+.about{
+    min-height: 80vh;
+    background: url(./thumb-1920-1343294.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.paragraph{
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    margin-top: 500px;
+    text-align: center;
+    font-family: cursive;
+}
+.aboutus{
+    padding-top: 30px;
+    color: white;
+    font-size: 70px;
+    font-family: monospace;
+}
+
+.gameList{
+    min-height: 80vh;
+        background: url(./pexels-tombrand-1637438.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+}
+
+.listHead{
+    padding-top: 30px;
+    padding-bottom: 70px;
+    color: white;
+    font-size: 90px;
+    font-family: monospace;
+}
+
+.games-list {
+    color: white;
+    list-style-type: disc ;
+    padding-left: 40px;
+
+}
+
+.games-list li{
+    font-size: 25px;
+    color: white;
+    margin-bottom:10px ;
+}
+
+.games-list li a{
+    color: white;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+}
+.Contact{
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    font-size: 90px;
+}
+
+
+
+
+/* Contact Section Styling */
+#links {
+    list-style-type: none;
+    /* Removes bullets */
+    padding-left: 0;
+}
+
+#links li {
+    margin: 15px 0;
+    /* Adds vertical space between links */
+}
+
+#links a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    display: block;
+    padding: 10px;
+    font-family: "Roboto", sans-serif;
+}
+
+#links a:hover {
+    color: white;
+}
+
+#top {
+    color: white;
+    font-size: 20px;
+    display: block;
+    text-align: right;
+    padding: 20px;
+}

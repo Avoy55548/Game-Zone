@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Main {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./AC 2/thumb-1920-738982.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.header {
+    color: White;
+    text-align: center;
+    font-family: "Rubik Wet Paint", system-ui;
+    font-size: 100px;
+
+}
+
+.line {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Play", sans-serif;
+    padding: 20px;
+
+}
+
+nav ul li {
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    padding: 50px;
+    margin: 30px;
+    font-size: 30px;
+}
+
+nav a {
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+    font-family: monospace;
+}
+
+.Name {
+    color: white;
+    font-family: "Play", sans-serif;
+    font-size: 100px;
+    margin: 30px;
+
+}
+
+.ss {
+    color: white;
+    font-family: "Play", sans-serif;
+    font-size: 60px;
+    margin: 30px;
+
+}
+
+#one {
+    width: 900px;
+    display: flex;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+#two {
+    width: 900px;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+#three {
+    width: 900px;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+#four {
+    width: 900px;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+
+.about {
+    color: white;
+    font-family: "Play", sans-serif;
+    font-size: 60px;
+    margin: 30px;
+}
+
+p {
+    color: white;
+    font-size: large;
+    padding: 10px 0px;
+}
+
+h2 {
+    color: white;
+    font-family: "Play", sans-serif;
+    font-size: xx-large;
+    margin: 10px;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
