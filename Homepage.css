@@ -32,7 +32,7 @@ nav ul li{
     display: inline-block;
     font-size: 20px;
     padding: 50px;
-    margin: 30px;
+    margin: 10px;
     font-size: 30px;
     
 }
@@ -124,7 +124,7 @@ nav a{
 }
 
 #links li {
-    margin: 15px 0;
+    margin: 20px 0;
     /* Adds vertical space between links */
 }
 
@@ -147,4 +147,130 @@ nav a{
     display: block;
     text-align: right;
     padding: 20px;
+}
+
+
+/* Responsive styling with media queries */
+
+/* Extra large screens (1200px and up) */
+@media (max-width: 1200px) {
+    .header {
+        font-size: 80px;
+        /* Reduce font size */
+    }
+
+    .listHead,
+    .Contact {
+        font-size: 70px;
+    }
+
+    nav a {
+        font-size: 30px;
+    }
+}
+
+/* Large screens (992px and up) */
+@media (max-width: 992px) {
+    .header {
+        font-size: 70px;
+        /* Further reduce font size */
+    }
+
+    .line {
+        font-size: 18px;
+    }
+
+    .aboutus,
+    .listHead,
+    .Contact {
+        font-size: 60px;
+    }
+
+    nav a {
+        font-size: 25px;
+    }
+
+    nav ul li {
+        padding: 30px;
+        /* Adjust padding */
+    }
+}
+
+/* Medium screens (768px and up) */
+@media (max-width: 768px) {
+    .header {
+        font-size: 60px;
+    }
+
+    .line {
+        font-size: 16px;
+    }
+
+    .aboutus,
+    .listHead,
+    .Contact {
+        font-size: 50px;
+    }
+
+    .games-list li {
+        font-size: 20px;
+        /* Reduce game list item font size */
+    }
+
+    .paragraph {
+        font-size: 18px;
+    }
+
+    nav a {
+        font-size: 20px;
+    }
+
+    nav ul li {
+        padding: 20px;
+    }
+}
+
+/* Small screens (576px and up) */
+@media (max-width: 576px) {
+    .header {
+        font-size: 50px;
+        /* Further reduce font size */
+    }
+
+    .line,
+    .games-list li,
+    #top {
+        font-size: 14px;
+        /* Reduce general text font size */
+    }
+
+    .aboutus,
+    .listHead,
+    .Contact {
+        font-size: 40px;
+    }
+
+    .paragraph {
+        font-size: 16px;
+        padding: 5px;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        /* Stack nav links vertically */
+        align-items: center;
+    }
+
+    nav ul li {
+        padding: 10px;
+    }
+
+    nav a {
+        font-size: 18px;
+    }
+
+    #links a {
+        font-size: 20px;
+    }
 }
