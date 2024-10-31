@@ -111,3 +111,67 @@ h2 {
     justify-content: center;
     align-items: center;
 }
+
+
+
+/* Responsive Styles for Smaller Screens */
+@media (max-width: 768px) {
+
+    /* Adjust header size */
+    .header {
+        font-size: 60px;
+    }
+
+    /* Adjust line text size */
+    .line {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    /* Adjust navigation links */
+    nav ul li {
+        padding: 20px;
+        margin: 10px;
+        font-size: 24px;
+    }
+
+    nav a {
+        font-size: 30px;
+    }
+
+    /* Adjust game name */
+    .Name {
+        font-size: 60px;
+        margin: 20px;
+    }
+
+    /* Adjust screenshots title */
+    .ss {
+        font-size: 40px;
+        margin: 20px;
+    }
+
+    /* Scale down images */
+    #one,
+    #two,
+    #three,
+    #four {
+        width: 100%;
+    }
+
+    /* Adjust about title */
+    .about {
+        font-size: 40px;
+    }
+
+    /* Adjust paragraph font size */
+    p {
+        font-size: medium;
+    }
+
+    /* Scale down video */
+    .video iframe {
+        width: 100%;
+        height: auto;
+    }
+}
